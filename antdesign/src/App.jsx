@@ -1,6 +1,7 @@
 
 import "./App.css";
-import UseButton from "./Components/UseButton";
+import AntCouresol from "./Components/AntCouresol";
+
 
 
 
@@ -13,7 +14,7 @@ function App() {
         Ant-Design components
       </h1>
       <div>
-      <UseButton/>
+      <AntCouresol/>
       </div>
     </>
   );
