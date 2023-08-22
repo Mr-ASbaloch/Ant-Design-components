@@ -1,5 +1,7 @@
 import React from "react";
 import { Button } from "antd";
+import {GrSubtractCircle} from 'react-icons/gr'
+
 
 const UseButton = () => {
   return (
@@ -8,11 +10,10 @@ const UseButton = () => {
 
       <Button type="dashed">first button</Button>
       <Button type="text">first button</Button>
-      <Button type="default" 
-      htmlType="submit" placeholder="submit" icon
-      >
-        submit
+      <Button type="default" loading  htmlType="button" placeholder="" icon={<GrSubtractCircle/>}    >
+        button
       </Button>
+
     </div>
   );
 };
